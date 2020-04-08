@@ -16,7 +16,7 @@ class Sudoku(QWidget):
         self.setFixedSize(500, 600)
         self.counter = 0
 
-        fileNumber = randint(1, 4)
+        fileNumber = randint(1, 20)
         selectedFile = open('files/k' + str(fileNumber) + '.txt', 'r')
         readFile = selectedFile.read()
 
